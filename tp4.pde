@@ -1,3 +1,4 @@
+//video de la explicacion https://youtu.be/5tp0RZpVzic
 PImage [] flujoA = new PImage [13];
 PImage [] flujoB = new PImage [8];
 PImage [] flujoBA = new PImage [4];
