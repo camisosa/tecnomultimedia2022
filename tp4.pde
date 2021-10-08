@@ -135,8 +135,10 @@ if (aventura){
   if(flujo [16]){//FLUJO A
   if(t >= 0 ){image(flujoA[12],0,0,width,height-70); text("Resulto que el no era un pato, el era un cisne y aquellos que eran\nigual a el, era su verdadera familia.",5,350);}if(t >= 1){creditos = true; t= 0; flujo[16] = false;}
   }//FIN DEL FLUJO A //FIN
-}//FIN DE IF-AVENTURA
-if (creditos){
+  textFont(fontsub,10);
+  text("Precione RIGHT para continuar o LEFT para volver a atras",0,20);
+ }//FIN DE IF-AVENTURA
+  if (creditos){
   y-=5;
   background(250);
   image(image[0],0,y,200,200);
