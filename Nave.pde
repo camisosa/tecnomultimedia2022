@@ -9,7 +9,7 @@ class Nave {
   }
 
   void iniciar() {
-    vida = 50;
+    vida = 3;
     tam =width/10;
     posX = width/2-tam/2;
     posY = height-100;
